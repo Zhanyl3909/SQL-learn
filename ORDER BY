@@ -1,0 +1,8 @@
+SELECT * FROM customer
+ORDER by first_name   //BY default it would in ascending order
+
+
+------------------------------------
+
+SELECT * FROM customer
+ORDER by first_name DESC   //for descending order use these line of code
