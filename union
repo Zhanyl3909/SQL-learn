@@ -1,0 +1,4 @@
+SELECT * FROM Sales1
+UNION
+SELECT * FROM Sales2
+ORDER BY name;
