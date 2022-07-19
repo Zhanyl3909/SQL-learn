@@ -1,0 +1,4 @@
+select * from tableA
+left outer join tableB
+on tableA.col_match = tableB.col_match
+where tableB.col_match IS null
