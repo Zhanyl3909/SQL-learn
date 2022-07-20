@@ -1,0 +1,2 @@
+select distinct(extract(year from create_date)) as customer_year
+from customer
