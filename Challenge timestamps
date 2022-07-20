@@ -1,0 +1,3 @@
+SELECT
+DISTINCT(to_char(payment_date, 'MONTH'))
+FROM payment
