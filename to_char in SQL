@@ -1,0 +1,2 @@
+select to_char(payment_date, 'Month-yyyy')
+from payment
