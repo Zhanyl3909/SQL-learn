@@ -1,0 +1,4 @@
+select Distinct(surname)
+from cd.members
+order by surname
+limit 10;
