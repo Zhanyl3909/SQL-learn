@@ -1,0 +1,3 @@
+select memid, surname, firstname, joindate
+from cd.members
+where extract(month from joindate) >= 9
