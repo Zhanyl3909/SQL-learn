@@ -1,0 +1,4 @@
+select * 
+from cd.facilities
+where facid = 0 
+OR facid = 5
