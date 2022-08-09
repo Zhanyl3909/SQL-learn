@@ -1,0 +1,4 @@
+select item, 
+(price - Coalesce(discount,0))
+as final 
+from table
