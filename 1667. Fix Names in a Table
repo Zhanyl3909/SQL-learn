@@ -1,0 +1,6 @@
+select user_id,
+       concat(upper(left(name, 1)), lower(right(name, length(name) - 1))) as name
+// -1 because exept the first letter!
+from Users
+group by 1 //1 means asc
+order by 1;
